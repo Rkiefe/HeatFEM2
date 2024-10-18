@@ -4,7 +4,7 @@ This is a finite element implementation of the 2D heat equation, with Neumann bo
 ## Model
 The heat equation is as follows,
 
-$\rho C_p \frac{\partial T}{\partial t} - \frac{1}{C_p}\nabla \cdot (k\nabla T) = q_V$
+$\rho C_p \frac{\partial T}{\partial t} - \frac{1}{C_p}\nabla \cdot (k\nabla T) = \frac{d q_V}{dt}$
 
 With Neumann boundary conditions: 
 
